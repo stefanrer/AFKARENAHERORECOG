@@ -37,15 +37,15 @@ def template_match(heroicon):
 def fraction_check(zone):
     fractions_directory = 'Fraction'
     fractions = Path(fractions_directory).glob('*')
-    Dict = {}
+    fdict = {}
     for frac in fractions:
         # print(frac)
         fracimag = cv2.imread(str(frac))
         fresult = cv2.matchTemplate(zone, fracimag, cv2.TM_CCOEFF_NORMED)
         fmin_val, fmax_val, fmin_loc, fmax_loc = cv2.minMaxLoc(fresult)
         fimage_name = str(frac).split("\\")[-1]
-        Dict[fimage_name[0:-4]] = str(fmax_val)[0:4]
-    print(Dict)
+        fdict[fimage_name[0:-4]] = str(fmax_val)[0:4]
+    print(fdict)
 
 
 for Face in Faces:
