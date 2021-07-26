@@ -4,7 +4,7 @@ from pathlib import Path
 DefaultHeight = 960
 DefaultWidth = 432
 directory = 'HeroFacesForTemplateMatching'
-DefaultHeroList = cv2.imread('Template/Screenshot_2021-07-14-11-12-36-980_com.lilithgame.hgame.gp.jpg', 1)
+DefaultHeroList = cv2.imread('Template/n38s-l_H780.jpg', 1)
 Size = DefaultWidth / DefaultHeroList.shape[1]  # Default the Size of Herolist
 img = cv2.resize(DefaultHeroList, (0, 0), fx=Size, fy=Size)
 img2 = img.copy()
@@ -77,8 +77,6 @@ with open('Result/Log.txt', 'w') as log:
         if val > 0.85:  # If matched successful
             print(str(val)[0:4], str(face).split("\\")[-1])
             print(str(val)[0:4], str(face).split("\\")[-1], file=log)
-            cv2.imwrite(f'Result/Success/{image_name}', crop)
-            cv2.rectangle(img2, LeftCorner, RightCorner, 255, 1)
             # Text locations
             text_loc = (LeftCorner[0], RightCorner[1])  # Hero name location
             frac_text_loc = (LeftCorner[0], RightCorner[1] - 15)  # Hero fraction location
@@ -91,24 +89,29 @@ with open('Result/Log.txt', 'w') as log:
             # print(fraction[0])
             if image_name[0:-4].isalpha():
                 # put Hero name on result jpg
-                cv2.putText(img2, image_name[0:-4], text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
                 if image_name[0:-4] not in success_dict:
+                    cv2.putText(img2, image_name[0:-4], text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
+                    cv2.imwrite(f'Result/Success/{image_name}', crop)
+                    cv2.rectangle(img2, LeftCorner, RightCorner, 255, 1)
                     success_dict[image_name[0:-4]] = [fraction, signature]  # Add hero to dict
+                    # Put Fraction on herolist
+                    cv2.putText(img2, fraction, frac_text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
+                    # Put Si on herolist
+                    cv2.putText(img2, signature, sign_text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
             else:
-                cv2.putText(img2, image_name[0:-5], text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
                 if image_name[0:-5] not in success_dict:
+                    cv2.putText(img2, image_name[0:-5], text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
                     success_dict[image_name[0:-5]] = [fraction, signature]
-            # Put Fraction on herolist
-            cv2.putText(img2, fraction, frac_text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
-            # Put Si on herolist
-            cv2.putText(img2, signature, sign_text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
+                    cv2.imwrite(f'Result/Success/{image_name}', crop)
+                    cv2.rectangle(img2, LeftCorner, RightCorner, 255, 1)
+                    # Put Fraction on herolist
+                    cv2.putText(img2, fraction, frac_text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
+                    # Put Si on herolist
+                    cv2.putText(img2, signature, sign_text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
 
         else:
             cv2.imwrite(f'Result/Failure/{image_name}', crop)
-            if image_name[0:-4].isalpha():
-                failure_list.append(image_name[0:-4])
-            else:
-                failure_list.append(image_name[0:-5])
+            failure_list.append(image_name[0:-4])
     cv2.imwrite(f'Result/result.jpg', img2)  # ResultSheet
     print(f'\nFailure list\n{failure_list}')
     print(f'\nFailure list\n{failure_list}', file=log)
