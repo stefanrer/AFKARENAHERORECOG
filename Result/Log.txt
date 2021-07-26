@@ -1,86 +1,123 @@
 0.94 Ainz.jpg
-{'Cele': '0.59', 'Dim': '0.98', 'GB': '0.80', 'Hypo': '0.54', 'LB': '0.73', 'Mauler': '0.36', 'Wilder': '0.59'}
-0.90 Antandra.jpg
-{'Cele': '0.42', 'Dim': '0.56', 'GB': '0.44', 'Hypo': '0.45', 'LB': '0.47', 'Mauler': '0.80', 'Wilder': '0.44'}
-0.90 Arthur.jpg
-{'Cele': '0.57', 'Dim': '0.94', 'GB': '0.78', 'Hypo': '0.57', 'LB': '0.71', 'Mauler': '0.40', 'Wilder': '0.58'}
-0.98 Athalia.jpg
-{'Cele': '0.85', 'Dim': '0.59', 'GB': '0.56', 'Hypo': '0.52', 'LB': '0.63', 'Mauler': '0.41', 'Wilder': '0.58'}
-0.99 Brutus.jpg
-{'Cele': '0.41', 'Dim': '0.44', 'GB': '0.40', 'Hypo': '0.40', 'LB': '0.45', 'Mauler': '0.73', 'Wilder': '0.49'}
-0.96 Daimon.jpg
-{'Cele': '0.59', 'Dim': '0.85', 'GB': '0.89', 'Hypo': '0.54', 'LB': '0.71', 'Mauler': '0.43', 'Wilder': '0.53'}
-0.99 Eironn.jpg
-{'Cele': '0.58', 'Dim': '0.56', 'GB': '0.51', 'Hypo': '0.46', 'LB': '0.50', 'Mauler': '0.38', 'Wilder': '0.85'}
-0.95 Estrilda.jpg
-{'Cele': '0.62', 'Dim': '0.73', 'GB': '0.72', 'Hypo': '0.61', 'LB': '0.91', 'Mauler': '0.32', 'Wilder': '0.53'}
-0.93 Ezio.jpg
-{'Cele': '0.62', 'Dim': '0.89', 'GB': '0.83', 'Hypo': '0.58', 'LB': '0.73', 'Mauler': '0.42', 'Wilder': '0.59'}
-0.96 Ferael.jpg
-{'Cele': '0.61', 'Dim': '0.86', 'GB': '0.96', 'Hypo': '0.57', 'LB': '0.75', 'Mauler': '0.44', 'Wilder': '0.53'}
-0.88 Flora.jpg
-{'Cele': '0.76', 'Dim': '0.64', 'GB': '0.63', 'Hypo': '0.55', 'LB': '0.71', 'Mauler': '0.56', 'Wilder': '0.56'}
-0.94 Grezhul.jpg
-{'Cele': '0.60', 'Dim': '0.83', 'GB': '0.99', 'Hypo': '0.57', 'LB': '0.75', 'Mauler': '0.31', 'Wilder': '0.62'}
-0.97 Gwyneth.jpg
-{'Cele': '0.61', 'Dim': '0.72', 'GB': '0.71', 'Hypo': '0.62', 'LB': '0.97', 'Mauler': '0.36', 'Wilder': '0.57'}
-0.92 Hendrik.jpg
-{'Cele': '0.61', 'Dim': '0.76', 'GB': '0.71', 'Hypo': '0.62', 'LB': '0.89', 'Mauler': '0.33', 'Wilder': '0.54'}
-0.97 Izold.jpg
-{'Cele': '0.61', 'Dim': '0.86', 'GB': '0.92', 'Hypo': '0.57', 'LB': '0.74', 'Mauler': '0.34', 'Wilder': '0.54'}
-0.95 JOKER.jpg
-{'Cele': '0.59', 'Dim': '0.87', 'GB': '0.78', 'Hypo': '0.56', 'LB': '0.69', 'Mauler': '0.37', 'Wilder': '0.57'}
-0.91 Kelthur.jpg
-{'Cele': '0.62', 'Dim': '0.85', 'GB': '0.91', 'Hypo': '0.55', 'LB': '0.72', 'Mauler': '0.49', 'Wilder': '0.62'}
-0.94 Khasos.jpg
-{'Cele': '0.50', 'Dim': '0.46', 'GB': '0.42', 'Hypo': '0.39', 'LB': '0.53', 'Mauler': '0.82', 'Wilder': '0.52'}
-0.95 Lyca.jpg
-{'Cele': '0.57', 'Dim': '0.51', 'GB': '0.53', 'Hypo': '0.47', 'LB': '0.57', 'Mauler': '0.47', 'Wilder': '0.93'}
-0.99 Morael.jpg
-{'Cele': '0.90', 'Dim': '0.56', 'GB': '0.55', 'Hypo': '0.48', 'LB': '0.62', 'Mauler': '0.42', 'Wilder': '0.58'}
-0.93 Nara.jpg
-{'Cele': '0.58', 'Dim': '0.79', 'GB': '0.91', 'Hypo': '0.55', 'LB': '0.69', 'Mauler': '0.33', 'Wilder': '0.51'}
-0.89 Oden.jpg
-{'Cele': '0.58', 'Dim': '0.80', 'GB': '0.91', 'Hypo': '0.57', 'LB': '0.71', 'Mauler': '0.29', 'Wilder': '0.64'}
-0.93 Pippa.jpg
-{'Cele': '0.58', 'Dim': '0.61', 'GB': '0.63', 'Hypo': '0.47', 'LB': '0.65', 'Mauler': '0.37', 'Wilder': '0.98'}
-0.93 QUEEN.jpg
-{'Cele': '0.60', 'Dim': '0.90', 'GB': '0.78', 'Hypo': '0.56', 'LB': '0.71', 'Mauler': '0.35', 'Wilder': '0.59'}
-0.94 Rowan.jpg
-{'Cele': '0.64', 'Dim': '0.73', 'GB': '0.70', 'Hypo': '0.62', 'LB': '0.92', 'Mauler': '0.41', 'Wilder': '0.62'}
-0.91 Safiya.jpg
-{'Cele': '0.56', 'Dim': '0.54', 'GB': '0.58', 'Hypo': '0.49', 'LB': '0.61', 'Mauler': '0.74', 'Wilder': '0.63'}
-0.95 Saurus.jpg
-{'Cele': '0.56', 'Dim': '0.55', 'GB': '0.56', 'Hypo': '0.51', 'LB': '0.54', 'Mauler': '0.36', 'Wilder': '0.92'}
-0.97 Shemira.jpg
-{'Cele': '0.60', 'Dim': '0.87', 'GB': '0.90', 'Hypo': '0.57', 'LB': '0.72', 'Mauler': '0.29', 'Wilder': '0.56'}
-0.94 Silas.jpg
-{'Cele': '0.61', 'Dim': '0.87', 'GB': '0.93', 'Hypo': '0.60', 'LB': '0.77', 'Mauler': '0.26', 'Wilder': '0.67'}
-0.94 Skreg.jpg
-{'Cele': '0.44', 'Dim': '0.53', 'GB': '0.45', 'Hypo': '0.47', 'LB': '0.44', 'Mauler': '0.97', 'Wilder': '0.51'}
-0.92 Skriath.jpg
-{'Cele': '0.54', 'Dim': '0.49', 'GB': '0.49', 'Hypo': '0.53', 'LB': '0.58', 'Mauler': '0.79', 'Wilder': '0.58'}
-0.99 Tasi.jpg
-{'Cele': '0.55', 'Dim': '0.54', 'GB': '0.55', 'Hypo': '0.49', 'LB': '0.54', 'Mauler': '0.42', 'Wilder': '0.90'}
-0.93 Thoran.jpg
-{'Cele': '0.55', 'Dim': '0.84', 'GB': '0.86', 'Hypo': '0.51', 'LB': '0.67', 'Mauler': '0.41', 'Wilder': '0.50'}
-0.94 Tidus.jpg
-{'Cele': '0.56', 'Dim': '0.50', 'GB': '0.53', 'Hypo': '0.52', 'LB': '0.67', 'Mauler': '0.67', 'Wilder': '0.63'}
-0.92 Titus.jpg
-{'Cele': '0.85', 'Dim': '0.64', 'GB': '0.62', 'Hypo': '0.53', 'LB': '0.66', 'Mauler': '0.42', 'Wilder': '0.55'}
-0.99 Twins.jpg
-{'Cele': '0.80', 'Dim': '0.67', 'GB': '0.64', 'Hypo': '0.60', 'LB': '0.68', 'Mauler': '0.41', 'Wilder': '0.53'}
-0.96 Vurk.jpg
-{'Cele': '0.39', 'Dim': '0.57', 'GB': '0.47', 'Hypo': '0.49', 'LB': '0.50', 'Mauler': '0.81', 'Wilder': '0.50'}
-0.87 Wu Kong.jpg
-{'Cele': '0.89', 'Dim': '0.53', 'GB': '0.61', 'Hypo': '0.61', 'LB': '0.59', 'Mauler': '0.45', 'Wilder': '0.57'}
-0.92 Zaphrael.jpg
-{'Cele': '0.98', 'Dim': '0.59', 'GB': '0.57', 'Hypo': '0.49', 'LB': '0.61', 'Mauler': '0.44', 'Wilder': '0.57'}
-0.89 Zolrath.jpg
-{'Cele': '0.58', 'Dim': '0.59', 'GB': '0.58', 'Hypo': '0.98', 'LB': '0.69', 'Mauler': '0.37', 'Wilder': '0.62'}
+{'Cele': '0.58', 'Dim': '0.90', 'GB': '0.77', 'Hypo': '0.52', 'LB': '0.69', 'Mauler': '0.32', 'Wilder': '0.56'}
+{'Si0': '0.57', 'Si10': '0.51', 'Si20': '0.52', 'Si30': '0.87'}
+0.98 Albedo.jpg
+{'Cele': '0.58', 'Dim': '0.85', 'GB': '0.72', 'Hypo': '0.53', 'LB': '0.66', 'Mauler': '0.44', 'Wilder': '0.56'}
+{'Si0': '0.50', 'Si10': '0.58', 'Si20': '0.59', 'Si30': '0.86'}
+0.95 Arthur.jpg
+{'Cele': '0.59', 'Dim': '0.88', 'GB': '0.77', 'Hypo': '0.53', 'LB': '0.66', 'Mauler': '0.38', 'Wilder': '0.55'}
+{'Si0': '0.61', 'Si10': '0.79', 'Si20': '0.82', 'Si30': '0.51'}
+0.99 Belinda1.jpg
+{'Cele': '0.62', 'Dim': '0.72', 'GB': '0.72', 'Hypo': '0.56', 'LB': '0.92', 'Mauler': '0.35', 'Wilder': '0.51'}
+{'Si0': '0.70', 'Si10': '0.80', 'Si20': '0.89', 'Si30': '0.65'}
+0.99 Brutus1.jpg
+{'Cele': '0.42', 'Dim': '0.43', 'GB': '0.42', 'Hypo': '0.48', 'LB': '0.44', 'Mauler': '0.68', 'Wilder': '0.49'}
+{'Si0': '0.69', 'Si10': '0.93', 'Si20': '0.78', 'Si30': '0.41'}
+0.99 Cecilia.jpg
+{'Cele': '0.61', 'Dim': '0.71', 'GB': '0.70', 'Hypo': '0.60', 'LB': '0.85', 'Mauler': '0.40', 'Wilder': '0.51'}
+{'Si0': '0.70', 'Si10': '0.95', 'Si20': '0.79', 'Si30': '0.39'}
+0.99 Daimon1.jpg
+{'Cele': '0.57', 'Dim': '0.78', 'GB': '0.94', 'Hypo': '0.51', 'LB': '0.70', 'Mauler': '0.45', 'Wilder': '0.48'}
+{'Si0': '0.50', 'Si10': '0.57', 'Si20': '0.59', 'Si30': '0.90'}
+0.97 Drez.jpg
+{'Cele': '0.45', 'Dim': '0.50', 'GB': '0.41', 'Hypo': '0.39', 'LB': '0.48', 'Mauler': '0.71', 'Wilder': '0.46'}
+{'Si0': '0.71', 'Si10': '0.83', 'Si20': '0.91', 'Si30': '0.63'}
+0.99 Eironn1.jpg
+{'Cele': '0.53', 'Dim': '0.55', 'GB': '0.53', 'Hypo': '0.44', 'LB': '0.53', 'Mauler': '0.39', 'Wilder': '0.84'}
+{'Si0': '0.55', 'Si10': '0.50', 'Si20': '0.50', 'Si30': '0.81'}
+0.94 Estrilda.jpg
+{'Cele': '0.59', 'Dim': '0.69', 'GB': '0.67', 'Hypo': '0.61', 'LB': '0.85', 'Mauler': '0.31', 'Wilder': '0.60'}
+{'Si0': '0.70', 'Si10': '0.96', 'Si20': '0.82', 'Si30': '0.44'}
+0.97 Ezio.jpg
+{'Cele': '0.60', 'Dim': '0.87', 'GB': '0.78', 'Hypo': '0.53', 'LB': '0.68', 'Mauler': '0.40', 'Wilder': '0.56'}
+{'Si0': '0.68', 'Si10': '0.93', 'Si20': '0.77', 'Si30': '0.39'}
+0.97 Fawkes.jpg
+{'Cele': '0.61', 'Dim': '0.71', 'GB': '0.71', 'Hypo': '0.57', 'LB': '0.91', 'Mauler': '0.32', 'Wilder': '0.52'}
+{'Si0': '0.71', 'Si10': '0.86', 'Si20': '0.76', 'Si30': '0.46'}
+0.97 Ferael.jpg
+{'Cele': '0.61', 'Dim': '0.83', 'GB': '0.96', 'Hypo': '0.55', 'LB': '0.74', 'Mauler': '0.36', 'Wilder': '0.52'}
+{'Si0': '0.45', 'Si10': '0.55', 'Si20': '0.56', 'Si30': '0.88'}
+0.99 Grezhul.jpg
+{'Cele': '0.60', 'Dim': '0.85', 'GB': '0.92', 'Hypo': '0.53', 'LB': '0.73', 'Mauler': '0.34', 'Wilder': '0.50'}
+{'Si0': '0.52', 'Si10': '0.53', 'Si20': '0.55', 'Si30': '0.93'}
+0.96 Gwyneth.jpg
+{'Cele': '0.64', 'Dim': '0.72', 'GB': '0.71', 'Hypo': '0.56', 'LB': '0.90', 'Mauler': '0.43', 'Wilder': '0.56'}
+{'Si0': '0.56', 'Si10': '0.57', 'Si20': '0.61', 'Si30': '0.83'}
+0.88 Hendrik.jpg
+{'Cele': '0.60', 'Dim': '0.69', 'GB': '0.69', 'Hypo': '0.57', 'LB': '0.85', 'Mauler': '0.32', 'Wilder': '0.51'}
+{'Si0': '0.68', 'Si10': '0.92', 'Si20': '0.75', 'Si30': '0.40'}
+0.98 Izold.jpg
+{'Cele': '0.60', 'Dim': '0.85', 'GB': '0.89', 'Hypo': '0.52', 'LB': '0.71', 'Mauler': '0.29', 'Wilder': '0.54'}
+{'Si0': '0.48', 'Si10': '0.45', 'Si20': '0.49', 'Si30': '0.84'}
+0.99 JOKER.jpg
+{'Cele': '0.61', 'Dim': '0.93', 'GB': '0.79', 'Hypo': '0.67', 'LB': '0.76', 'Mauler': '0.34', 'Wilder': '0.57'}
+{'Si0': '0.70', 'Si10': '0.90', 'Si20': '0.81', 'Si30': '0.47'}
+0.93 Kren.jpg
+{'Cele': '0.42', 'Dim': '0.49', 'GB': '0.44', 'Hypo': '0.49', 'LB': '0.51', 'Mauler': '0.72', 'Wilder': '0.50'}
+{'Si0': '0.69', 'Si10': '0.83', 'Si20': '0.78', 'Si30': '0.46'}
+0.99 Lorsan.jpg
+{'Cele': '0.50', 'Dim': '0.53', 'GB': '0.51', 'Hypo': '0.46', 'LB': '0.51', 'Mauler': '0.45', 'Wilder': '0.76'}
+{'Si0': '0.65', 'Si10': '0.83', 'Si20': '0.68', 'Si30': '0.42'}
+0.99 Lucius1.jpg
+{'Cele': '0.62', 'Dim': '0.71', 'GB': '0.70', 'Hypo': '0.56', 'LB': '0.87', 'Mauler': '0.39', 'Wilder': '0.65'}
+{'Si0': '0.71', 'Si10': '0.85', 'Si20': '0.94', 'Si30': '0.60'}
+0.99 Lyca.jpg
+{'Cele': '0.51', 'Dim': '0.51', 'GB': '0.52', 'Hypo': '0.49', 'LB': '0.54', 'Mauler': '0.48', 'Wilder': '0.90'}
+{'Si0': '0.71', 'Si10': '0.72', 'Si20': '0.85', 'Si30': '0.60'}
+0.96 Nakoruru.jpg
+{'Cele': '0.62', 'Dim': '0.91', 'GB': '0.79', 'Hypo': '0.53', 'LB': '0.70', 'Mauler': '0.33', 'Wilder': '0.60'}
+{'Si0': '0.69', 'Si10': '0.85', 'Si20': '0.93', 'Si30': '0.58'}
+0.98 Nemora.jpg
+{'Cele': '0.53', 'Dim': '0.54', 'GB': '0.53', 'Hypo': '0.50', 'LB': '0.52', 'Mauler': '0.39', 'Wilder': '0.88'}
+{'Si0': '0.67', 'Si10': '0.69', 'Si20': '0.86', 'Si30': '0.59'}
+0.93 Numisu.jpg
+{'Cele': '0.55', 'Dim': '0.48', 'GB': '0.53', 'Hypo': '0.47', 'LB': '0.60', 'Mauler': '0.77', 'Wilder': '0.64'}
+{'Si0': '0.66', 'Si10': '0.80', 'Si20': '0.95', 'Si30': '0.65'}
+0.99 POP.jpg
+{'Cele': '0.57', 'Dim': '0.83', 'GB': '0.73', 'Hypo': '0.52', 'LB': '0.65', 'Mauler': '0.37', 'Wilder': '0.54'}
+{'Si0': '0.67', 'Si10': '0.94', 'Si20': '0.78', 'Si30': '0.39'}
+0.99 QUEEN.jpg
+{'Cele': '0.56', 'Dim': '0.86', 'GB': '0.74', 'Hypo': '0.53', 'LB': '0.65', 'Mauler': '0.36', 'Wilder': '0.54'}
+{'Si0': '0.69', 'Si10': '0.94', 'Si20': '0.80', 'Si30': '0.41'}
+0.99 Raine.jpg
+{'Cele': '0.65', 'Dim': '0.71', 'GB': '0.69', 'Hypo': '0.58', 'LB': '0.91', 'Mauler': '0.32', 'Wilder': '0.52'}
+{'Si0': '0.72', 'Si10': '0.79', 'Si20': '0.93', 'Si30': '0.66'}
+0.95 Rowan.jpg
+{'Cele': '0.61', 'Dim': '0.71', 'GB': '0.71', 'Hypo': '0.58', 'LB': '0.93', 'Mauler': '0.40', 'Wilder': '0.61'}
+{'Si0': '0.51', 'Si10': '0.54', 'Si20': '0.57', 'Si30': '0.89'}
+0.99 Safiya1.jpg
+{'Cele': '0.59', 'Dim': '0.57', 'GB': '0.61', 'Hypo': '0.58', 'LB': '0.71', 'Mauler': '0.74', 'Wilder': '0.65'}
+{'Si0': '0.67', 'Si10': '0.75', 'Si20': '0.86', 'Si30': '0.58'}
+0.97 Saurus.jpg
+{'Cele': '0.52', 'Dim': '0.51', 'GB': '0.53', 'Hypo': '0.44', 'LB': '0.52', 'Mauler': '0.38', 'Wilder': '0.93'}
+{'Si0': '0.42', 'Si10': '0.48', 'Si20': '0.54', 'Si30': '0.84'}
+0.99 Shemira1.jpg
+{'Cele': '0.59', 'Dim': '0.84', 'GB': '0.84', 'Hypo': '0.54', 'LB': '0.69', 'Mauler': '0.39', 'Wilder': '0.51'}
+{'Si0': '0.54', 'Si10': '0.50', 'Si20': '0.53', 'Si30': '0.81'}
+0.99 Skriath1.jpg
+{'Cele': '0.46', 'Dim': '0.47', 'GB': '0.45', 'Hypo': '0.45', 'LB': '0.46', 'Mauler': '0.68', 'Wilder': '0.45'}
+{'Si0': '0.71', 'Si10': '0.85', 'Si20': '0.78', 'Si30': '0.45'}
+0.99 Talene1.jpg
+{'Cele': '0.69', 'Dim': '0.63', 'GB': '0.61', 'Hypo': '0.54', 'LB': '0.68', 'Mauler': '0.37', 'Wilder': '0.51'}
+{'Si0': '0.42', 'Si10': '0.56', 'Si20': '0.55', 'Si30': '0.88'}
+0.90 Tasi1.jpg
+{'Cele': '0.57', 'Dim': '0.56', 'GB': '0.52', 'Hypo': '0.42', 'LB': '0.52', 'Mauler': '0.53', 'Wilder': '0.80'}
+{'Si0': '0.73', 'Si10': '0.81', 'Si20': '0.92', 'Si30': '0.62'}
+0.92 Thoran.jpg
+{'Cele': '0.58', 'Dim': '0.84', 'GB': '0.94', 'Hypo': '0.54', 'LB': '0.73', 'Mauler': '0.38', 'Wilder': '0.48'}
+{'Si0': '0.45', 'Si10': '0.54', 'Si20': '0.61', 'Si30': '0.95'}
+0.99 Tidus.jpg
+{'Cele': '0.54', 'Dim': '0.49', 'GB': '0.53', 'Hypo': '0.50', 'LB': '0.65', 'Mauler': '0.63', 'Wilder': '0.63'}
+{'Si0': '0.64', 'Si10': '0.83', 'Si20': '0.89', 'Si30': '0.52'}
+0.99 Vurk.jpg
+{'Cele': '0.41', 'Dim': '0.59', 'GB': '0.50', 'Hypo': '0.46', 'LB': '0.53', 'Mauler': '0.63', 'Wilder': '0.49'}
+{'Si0': '0.71', 'Si10': '0.94', 'Si20': '0.81', 'Si30': '0.45'}
+0.97 Warek.jpg
+{'Cele': '0.45', 'Dim': '0.49', 'GB': '0.46', 'Hypo': '0.47', 'LB': '0.52', 'Mauler': '0.77', 'Wilder': '0.50'}
+{'Si0': '0.71', 'Si10': '0.94', 'Si20': '0.79', 'Si30': '0.44'}
 
 Failure list
-['Albedo', 'Alna', 'Anoki', 'Baden', 'Belinda', 'Belinda', 'Brutus', 'Cecilia', 'Daimon', 'Desira', 'Drez', 'Eironn', 'Eluard', 'Ezizh', 'Fawkes', 'Gorvo', 'Isabella', 'Kaz', 'Khazard', 'Kren', 'Leofric', 'Lorsan', 'Lucius', 'Lucretia', 'Mehira', 'Merlin', 'Mezoth', 'Mortas', 'Nakoruru', 'Nemora', 'Numisu', 'Orthros', 'Oscar', 'Peggy', 'POP', 'Raine', 'Raku', 'Respen', 'Rigby', 'Rosaline', 'Safiya', 'Satrana', 'Seirus', 'Shemira', 'Skriath', 'Solise', 'Talene', 'Tasi', 'Thali', 'Thane', 'Theowyn', 'Torne', 'Ukyo', 'Ulmus', 'Walker', 'Warek']
+['Alna', 'Anoki', 'Antandra', 'Athalia', 'Baden', 'Belinda', 'Brutus', 'Daimon', 'Desira', 'Eironn', 'Eluard', 'Ezizh', 'Flora', 'Gorvo', 'Isabella', 'Kaz', 'Kelthur', 'Khasos', 'Khazard', 'Leofric', 'Lucretia', 'Mehira', 'Merlin', 'Mezoth', 'Morael', 'Mortas', 'Nara', 'Oden', 'Orthros', 'Oscar', 'Peggy', 'Pippa', 'Raku', 'Respen', 'Rigby', 'Rosaline', 'Safiya', 'Satrana', 'Seirus', 'Shemira', 'Silas', 'Skreg', 'Skriath', 'Solise', 'Tasi', 'Thali', 'Thane', 'Theowyn', 'Titus', 'Torne', 'Twins', 'Ukyo', 'Ulmus', 'Walker', 'Wu Kon', 'Zaphrael', 'Zolrath']
 
 Success dict
-{'Ainz': ['Dim'], 'Antandra': ['Mauler'], 'Arthur': ['Dim'], 'Athalia': ['Cele'], 'Brutus': ['Mauler'], 'Daimon': ['GB'], 'Eironn': ['Wilder'], 'Estrilda': ['LB'], 'Ezio': ['Dim'], 'Ferael': ['GB'], 'Flora': ['Cele'], 'Grezhul': ['GB'], 'Gwyneth': ['LB'], 'Hendrik': ['LB'], 'Izold': ['GB'], 'JOKER': ['Dim'], 'Kelthur': ['GB'], 'Khasos': ['Mauler'], 'Lyca': ['Wilder'], 'Morael': ['Cele'], 'Nara': ['GB'], 'Oden': ['GB'], 'Pippa': ['Wilder'], 'QUEEN': ['Dim'], 'Rowan': ['LB'], 'Safiya': ['Mauler'], 'Saurus': ['Wilder'], 'Shemira': ['GB'], 'Silas': ['GB'], 'Skreg': ['Mauler'], 'Skriath': ['Mauler'], 'Tasi': ['Wilder'], 'Thoran': ['GB'], 'Tidus': ['LB'], 'Titus': ['Cele'], 'Twins': ['Cele'], 'Vurk': ['Mauler'], 'Wu Kon': ['Cele'], 'Zaphrael': ['Cele'], 'Zolrath': ['Hypo']}
+{'Ainz': ['Dim', 'Si30'], 'Albedo': ['Dim', 'Si30'], 'Arthur': ['Dim', 'Si20'], 'Belinda': ['LB', 'Si20'], 'Brutus': ['Mauler', 'Si10'], 'Cecilia': ['LB', 'Si10'], 'Daimon': ['GB', 'Si30'], 'Drez': ['Mauler', 'Si20'], 'Eironn': ['Wilder', 'Si30'], 'Estrilda': ['LB', 'Si10'], 'Ezio': ['Dim', 'Si10'], 'Fawkes': ['LB', 'Si10'], 'Ferael': ['GB', 'Si30'], 'Grezhul': ['GB', 'Si30'], 'Gwyneth': ['LB', 'Si30'], 'Hendrik': ['LB', 'Si10'], 'Izold': ['GB', 'Si30'], 'JOKER': ['Dim', 'Si10'], 'Kren': ['Mauler', 'Si10'], 'Lorsan': ['Wilder', 'Si10'], 'Lucius': ['LB', 'Si20'], 'Lyca': ['Wilder', 'Si20'], 'Nakoruru': ['Dim', 'Si20'], 'Nemora': ['Wilder', 'Si20'], 'Numisu': ['Mauler', 'Si20'], 'POP': ['Dim', 'Si10'], 'QUEEN': ['Dim', 'Si10'], 'Raine': ['LB', 'Si20'], 'Rowan': ['LB', 'Si30'], 'Safiya': ['Mauler', 'Si20'], 'Saurus': ['Wilder', 'Si30'], 'Shemira': ['Dim', 'Si30'], 'Skriath': ['Mauler', 'Si10'], 'Talene': ['Cele', 'Si30'], 'Tasi': ['Wilder', 'Si20'], 'Thoran': ['GB', 'Si30'], 'Tidus': ['LB', 'Si20'], 'Vurk': ['Mauler', 'Si10'], 'Warek': ['Mauler', 'Si10']}

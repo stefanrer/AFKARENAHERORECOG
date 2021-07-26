@@ -4,7 +4,7 @@ from pathlib import Path
 DefaultHeight = 960
 DefaultWidth = 432
 directory = 'HeroFacesForTemplateMatching'
-DefaultHeroList = cv2.imread('Template/MgaLXVU2-MI (1).jpg', 1)
+DefaultHeroList = cv2.imread('Template/Screenshot_2021-07-14-11-12-36-980_com.lilithgame.hgame.gp.jpg', 1)
 Size = DefaultWidth / DefaultHeroList.shape[1]  # Default the Size of Herolist
 img = cv2.resize(DefaultHeroList, (0, 0), fx=Size, fy=Size)
 img2 = img.copy()
@@ -42,15 +42,30 @@ def fraction_check(zone):
     fdict = {}
     for frac in fractions:
         # print(frac)
-        fracimag = cv2.imread(str(frac))
+        fracimag = cv2.imread(str(frac), 1)
         fresult = cv2.matchTemplate(zone, fracimag, cv2.TM_CCOEFF_NORMED)
-        fmin_val, fmax_val, fmin_loc, fmax_loc = cv2.minMaxLoc(fresult)
-        fimage_name = str(frac).split("\\")[-1]
-        fdict[fimage_name[0:-4]] = str(fmax_val)[0:4]
+        f_min_val, f_max_val, f_min_loc, f_max_loc = cv2.minMaxLoc(fresult)
+        fdict[str(frac).split('\\')[-1][0:-4]] = str(f_max_val)[0:4]
     fdictlist = sorted(fdict.items(), key=lambda x: x[1], reverse=True)
     print(fdict, file=log)
     print(fdict)
-    return fdictlist[0]
+    return fdictlist[0][0]
+
+
+def signature_check(zone):
+    signatures_directory = 'Si'
+    signatures = Path(signatures_directory).glob('*')
+    sidict = {}
+    for sign in signatures:
+        # print(signature)
+        signimag = cv2.imread(str(sign), 1)
+        signresult = cv2.matchTemplate(zone, signimag, cv2.TM_CCOEFF_NORMED)
+        sign_min_val, sign_max_val, sign_min_loc, sign_max_loc = cv2.minMaxLoc(signresult)
+        sidict[str(sign).split('\\')[1][0:-4]] = str(sign_max_val)[0:4]
+    sidictlist = sorted(sidict.items(), key=lambda x: x[1], reverse=True)
+    print(sidict, file=log)
+    print(sidict)
+    return sidictlist[0][0]
 
 
 with open('Result/Log.txt', 'w') as log:
@@ -64,22 +79,29 @@ with open('Result/Log.txt', 'w') as log:
             print(str(val)[0:4], str(face).split("\\")[-1], file=log)
             cv2.imwrite(f'Result/Success/{image_name}', crop)
             cv2.rectangle(img2, LeftCorner, RightCorner, 255, 1)
-            # Put Character Name On Result Sheet
-            text_loc = (LeftCorner[0], RightCorner[1])
-            frac_text_loc = (LeftCorner[0], RightCorner[1] - 15)
+            # Text locations
+            text_loc = (LeftCorner[0], RightCorner[1])  # Hero name location
+            frac_text_loc = (LeftCorner[0], RightCorner[1] - 15)  # Hero fraction location
+            sign_text_loc = (LeftCorner[0], RightCorner[1] - 30)  # Hero signature location
+            # Crop for template
             mod_check_crop = crop[0:int((crop.shape[0]) / 1.8), 0:int((crop.shape[1]) / 2.3)]  # Zone for mod check
-            fraction = fraction_check(mod_check_crop)[0]
+            # hero mods check
+            fraction = fraction_check(mod_check_crop)  # Check for fraction
+            signature = signature_check(mod_check_crop)  # Check for signature
             # print(fraction[0])
             if image_name[0:-4].isalpha():
                 # put Hero name on result jpg
                 cv2.putText(img2, image_name[0:-4], text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
                 if image_name[0:-4] not in success_dict:
-                    success_dict[image_name[0:-4]] = [fraction]  # Add hero to dict
+                    success_dict[image_name[0:-4]] = [fraction, signature]  # Add hero to dict
             else:
                 cv2.putText(img2, image_name[0:-5], text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
                 if image_name[0:-5] not in success_dict:
-                    success_dict[image_name[0:-5]] = [fraction]
+                    success_dict[image_name[0:-5]] = [fraction, signature]
+            # Put Fraction on herolist
             cv2.putText(img2, fraction, frac_text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
+            # Put Si on herolist
+            cv2.putText(img2, signature, sign_text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
 
         else:
             cv2.imwrite(f'Result/Failure/{image_name}', crop)
