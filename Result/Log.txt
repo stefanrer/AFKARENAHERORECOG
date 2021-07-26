@@ -1,0 +1,86 @@
+0.94 Ainz.jpg
+{'Cele': '0.59', 'Dim': '0.98', 'GB': '0.80', 'Hypo': '0.54', 'LB': '0.73', 'Mauler': '0.36', 'Wilder': '0.59'}
+0.90 Antandra.jpg
+{'Cele': '0.42', 'Dim': '0.56', 'GB': '0.44', 'Hypo': '0.45', 'LB': '0.47', 'Mauler': '0.80', 'Wilder': '0.44'}
+0.90 Arthur.jpg
+{'Cele': '0.57', 'Dim': '0.94', 'GB': '0.78', 'Hypo': '0.57', 'LB': '0.71', 'Mauler': '0.40', 'Wilder': '0.58'}
+0.98 Athalia.jpg
+{'Cele': '0.85', 'Dim': '0.59', 'GB': '0.56', 'Hypo': '0.52', 'LB': '0.63', 'Mauler': '0.41', 'Wilder': '0.58'}
+0.99 Brutus.jpg
+{'Cele': '0.41', 'Dim': '0.44', 'GB': '0.40', 'Hypo': '0.40', 'LB': '0.45', 'Mauler': '0.73', 'Wilder': '0.49'}
+0.96 Daimon.jpg
+{'Cele': '0.59', 'Dim': '0.85', 'GB': '0.89', 'Hypo': '0.54', 'LB': '0.71', 'Mauler': '0.43', 'Wilder': '0.53'}
+0.99 Eironn.jpg
+{'Cele': '0.58', 'Dim': '0.56', 'GB': '0.51', 'Hypo': '0.46', 'LB': '0.50', 'Mauler': '0.38', 'Wilder': '0.85'}
+0.95 Estrilda.jpg
+{'Cele': '0.62', 'Dim': '0.73', 'GB': '0.72', 'Hypo': '0.61', 'LB': '0.91', 'Mauler': '0.32', 'Wilder': '0.53'}
+0.93 Ezio.jpg
+{'Cele': '0.62', 'Dim': '0.89', 'GB': '0.83', 'Hypo': '0.58', 'LB': '0.73', 'Mauler': '0.42', 'Wilder': '0.59'}
+0.96 Ferael.jpg
+{'Cele': '0.61', 'Dim': '0.86', 'GB': '0.96', 'Hypo': '0.57', 'LB': '0.75', 'Mauler': '0.44', 'Wilder': '0.53'}
+0.88 Flora.jpg
+{'Cele': '0.76', 'Dim': '0.64', 'GB': '0.63', 'Hypo': '0.55', 'LB': '0.71', 'Mauler': '0.56', 'Wilder': '0.56'}
+0.94 Grezhul.jpg
+{'Cele': '0.60', 'Dim': '0.83', 'GB': '0.99', 'Hypo': '0.57', 'LB': '0.75', 'Mauler': '0.31', 'Wilder': '0.62'}
+0.97 Gwyneth.jpg
+{'Cele': '0.61', 'Dim': '0.72', 'GB': '0.71', 'Hypo': '0.62', 'LB': '0.97', 'Mauler': '0.36', 'Wilder': '0.57'}
+0.92 Hendrik.jpg
+{'Cele': '0.61', 'Dim': '0.76', 'GB': '0.71', 'Hypo': '0.62', 'LB': '0.89', 'Mauler': '0.33', 'Wilder': '0.54'}
+0.97 Izold.jpg
+{'Cele': '0.61', 'Dim': '0.86', 'GB': '0.92', 'Hypo': '0.57', 'LB': '0.74', 'Mauler': '0.34', 'Wilder': '0.54'}
+0.95 JOKER.jpg
+{'Cele': '0.59', 'Dim': '0.87', 'GB': '0.78', 'Hypo': '0.56', 'LB': '0.69', 'Mauler': '0.37', 'Wilder': '0.57'}
+0.91 Kelthur.jpg
+{'Cele': '0.62', 'Dim': '0.85', 'GB': '0.91', 'Hypo': '0.55', 'LB': '0.72', 'Mauler': '0.49', 'Wilder': '0.62'}
+0.94 Khasos.jpg
+{'Cele': '0.50', 'Dim': '0.46', 'GB': '0.42', 'Hypo': '0.39', 'LB': '0.53', 'Mauler': '0.82', 'Wilder': '0.52'}
+0.95 Lyca.jpg
+{'Cele': '0.57', 'Dim': '0.51', 'GB': '0.53', 'Hypo': '0.47', 'LB': '0.57', 'Mauler': '0.47', 'Wilder': '0.93'}
+0.99 Morael.jpg
+{'Cele': '0.90', 'Dim': '0.56', 'GB': '0.55', 'Hypo': '0.48', 'LB': '0.62', 'Mauler': '0.42', 'Wilder': '0.58'}
+0.93 Nara.jpg
+{'Cele': '0.58', 'Dim': '0.79', 'GB': '0.91', 'Hypo': '0.55', 'LB': '0.69', 'Mauler': '0.33', 'Wilder': '0.51'}
+0.89 Oden.jpg
+{'Cele': '0.58', 'Dim': '0.80', 'GB': '0.91', 'Hypo': '0.57', 'LB': '0.71', 'Mauler': '0.29', 'Wilder': '0.64'}
+0.93 Pippa.jpg
+{'Cele': '0.58', 'Dim': '0.61', 'GB': '0.63', 'Hypo': '0.47', 'LB': '0.65', 'Mauler': '0.37', 'Wilder': '0.98'}
+0.93 QUEEN.jpg
+{'Cele': '0.60', 'Dim': '0.90', 'GB': '0.78', 'Hypo': '0.56', 'LB': '0.71', 'Mauler': '0.35', 'Wilder': '0.59'}
+0.94 Rowan.jpg
+{'Cele': '0.64', 'Dim': '0.73', 'GB': '0.70', 'Hypo': '0.62', 'LB': '0.92', 'Mauler': '0.41', 'Wilder': '0.62'}
+0.91 Safiya.jpg
+{'Cele': '0.56', 'Dim': '0.54', 'GB': '0.58', 'Hypo': '0.49', 'LB': '0.61', 'Mauler': '0.74', 'Wilder': '0.63'}
+0.95 Saurus.jpg
+{'Cele': '0.56', 'Dim': '0.55', 'GB': '0.56', 'Hypo': '0.51', 'LB': '0.54', 'Mauler': '0.36', 'Wilder': '0.92'}
+0.97 Shemira.jpg
+{'Cele': '0.60', 'Dim': '0.87', 'GB': '0.90', 'Hypo': '0.57', 'LB': '0.72', 'Mauler': '0.29', 'Wilder': '0.56'}
+0.94 Silas.jpg
+{'Cele': '0.61', 'Dim': '0.87', 'GB': '0.93', 'Hypo': '0.60', 'LB': '0.77', 'Mauler': '0.26', 'Wilder': '0.67'}
+0.94 Skreg.jpg
+{'Cele': '0.44', 'Dim': '0.53', 'GB': '0.45', 'Hypo': '0.47', 'LB': '0.44', 'Mauler': '0.97', 'Wilder': '0.51'}
+0.92 Skriath.jpg
+{'Cele': '0.54', 'Dim': '0.49', 'GB': '0.49', 'Hypo': '0.53', 'LB': '0.58', 'Mauler': '0.79', 'Wilder': '0.58'}
+0.99 Tasi.jpg
+{'Cele': '0.55', 'Dim': '0.54', 'GB': '0.55', 'Hypo': '0.49', 'LB': '0.54', 'Mauler': '0.42', 'Wilder': '0.90'}
+0.93 Thoran.jpg
+{'Cele': '0.55', 'Dim': '0.84', 'GB': '0.86', 'Hypo': '0.51', 'LB': '0.67', 'Mauler': '0.41', 'Wilder': '0.50'}
+0.94 Tidus.jpg
+{'Cele': '0.56', 'Dim': '0.50', 'GB': '0.53', 'Hypo': '0.52', 'LB': '0.67', 'Mauler': '0.67', 'Wilder': '0.63'}
+0.92 Titus.jpg
+{'Cele': '0.85', 'Dim': '0.64', 'GB': '0.62', 'Hypo': '0.53', 'LB': '0.66', 'Mauler': '0.42', 'Wilder': '0.55'}
+0.99 Twins.jpg
+{'Cele': '0.80', 'Dim': '0.67', 'GB': '0.64', 'Hypo': '0.60', 'LB': '0.68', 'Mauler': '0.41', 'Wilder': '0.53'}
+0.96 Vurk.jpg
+{'Cele': '0.39', 'Dim': '0.57', 'GB': '0.47', 'Hypo': '0.49', 'LB': '0.50', 'Mauler': '0.81', 'Wilder': '0.50'}
+0.87 Wu Kong.jpg
+{'Cele': '0.89', 'Dim': '0.53', 'GB': '0.61', 'Hypo': '0.61', 'LB': '0.59', 'Mauler': '0.45', 'Wilder': '0.57'}
+0.92 Zaphrael.jpg
+{'Cele': '0.98', 'Dim': '0.59', 'GB': '0.57', 'Hypo': '0.49', 'LB': '0.61', 'Mauler': '0.44', 'Wilder': '0.57'}
+0.89 Zolrath.jpg
+{'Cele': '0.58', 'Dim': '0.59', 'GB': '0.58', 'Hypo': '0.98', 'LB': '0.69', 'Mauler': '0.37', 'Wilder': '0.62'}
+
+Failure list
+['Albedo', 'Alna', 'Anoki', 'Baden', 'Belinda', 'Belinda', 'Brutus', 'Cecilia', 'Daimon', 'Desira', 'Drez', 'Eironn', 'Eluard', 'Ezizh', 'Fawkes', 'Gorvo', 'Isabella', 'Kaz', 'Khazard', 'Kren', 'Leofric', 'Lorsan', 'Lucius', 'Lucretia', 'Mehira', 'Merlin', 'Mezoth', 'Mortas', 'Nakoruru', 'Nemora', 'Numisu', 'Orthros', 'Oscar', 'Peggy', 'POP', 'Raine', 'Raku', 'Respen', 'Rigby', 'Rosaline', 'Safiya', 'Satrana', 'Seirus', 'Shemira', 'Skriath', 'Solise', 'Talene', 'Tasi', 'Thali', 'Thane', 'Theowyn', 'Torne', 'Ukyo', 'Ulmus', 'Walker', 'Warek']
+
+Success dict
+{'Ainz': ['Dim'], 'Antandra': ['Mauler'], 'Arthur': ['Dim'], 'Athalia': ['Cele'], 'Brutus': ['Mauler'], 'Daimon': ['GB'], 'Eironn': ['Wilder'], 'Estrilda': ['LB'], 'Ezio': ['Dim'], 'Ferael': ['GB'], 'Flora': ['Cele'], 'Grezhul': ['GB'], 'Gwyneth': ['LB'], 'Hendrik': ['LB'], 'Izold': ['GB'], 'JOKER': ['Dim'], 'Kelthur': ['GB'], 'Khasos': ['Mauler'], 'Lyca': ['Wilder'], 'Morael': ['Cele'], 'Nara': ['GB'], 'Oden': ['GB'], 'Pippa': ['Wilder'], 'QUEEN': ['Dim'], 'Rowan': ['LB'], 'Safiya': ['Mauler'], 'Saurus': ['Wilder'], 'Shemira': ['GB'], 'Silas': ['GB'], 'Skreg': ['Mauler'], 'Skriath': ['Mauler'], 'Tasi': ['Wilder'], 'Thoran': ['GB'], 'Tidus': ['LB'], 'Titus': ['Cele'], 'Twins': ['Cele'], 'Vurk': ['Mauler'], 'Wu Kon': ['Cele'], 'Zaphrael': ['Cele'], 'Zolrath': ['Hypo']}
