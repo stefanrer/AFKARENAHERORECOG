@@ -5,7 +5,7 @@ from pathlib import Path
 DefaultHeight = 960
 DefaultWidth = 432
 directory = 'HeroFacesDirectory/HeroFacesForTemplateMatching'
-DefaultHeroList = cv2.imread('Herolist/wGuamfjX26E.jpg', 1)
+DefaultHeroList = cv2.imread('Herolist/Screenshot_20210722-154416_AFK_Arena.jpg', 1)
 Size = DefaultWidth / DefaultHeroList.shape[1]  # Default the Size of Herolist
 img = cv2.resize(DefaultHeroList, (0, 0), fx=Size, fy=Size)
 img2 = img.copy()
