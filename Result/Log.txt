@@ -1,99 +1,126 @@
-0.96 Ainz.jpg
-{'Cele': '0.65', 'Dim': '0.93', 'GB': '0.82', 'Hypo': '0.56', 'LB': '0.74', 'Mauler': '0.32', 'Wilder': '0.59'}
-{'Si0': '0.52', 'Si10': '0.59', 'Si20': '0.56', 'Si30': '0.87'}
+0.95 Ainz.jpg
+{'Cele': '0.60', 'Dim': '0.89', 'GB': '0.78', 'Hypo': '0.53', 'LB': '0.69', 'Mauler': '0.33', 'Wilder': '0.53'}
+{'Si0': '0.43', 'Si10': '0.50', 'Si20': '0.56', 'Si30': '0.89'}
 0.95 Albedo.jpg
-{'Cele': '0.62', 'Dim': '0.87', 'GB': '0.78', 'Hypo': '0.60', 'LB': '0.74', 'Mauler': '0.45', 'Wilder': '0.59'}
-{'Si0': '0.52', 'Si10': '0.52', 'Si20': '0.52', 'Si30': '0.74'}
-0.92 Arthur.jpg
-{'Cele': '0.64', 'Dim': '0.95', 'GB': '0.83', 'Hypo': '0.57', 'LB': '0.72', 'Mauler': '0.40', 'Wilder': '0.57'}
-{'Si0': '0.55', 'Si10': '0.60', 'Si20': '0.58', 'Si30': '0.92'}
-0.94 Belinda.jpg
-{'Cele': '0.63', 'Dim': '0.75', 'GB': '0.70', 'Hypo': '0.59', 'LB': '0.90', 'Mauler': '0.47', 'Wilder': '0.65'}
-{'Si0': '0.64', 'Si10': '0.76', 'Si20': '0.83', 'Si30': '0.52'}
-0.96 Daimon1.jpg
-{'Cele': '0.61', 'Dim': '0.86', 'GB': '0.95', 'Hypo': '0.54', 'LB': '0.73', 'Mauler': '0.51', 'Wilder': '0.51'}
-{'Si0': '0.51', 'Si10': '0.59', 'Si20': '0.55', 'Si30': '0.87'}
-0.98 Eironn.jpg
-{'Cele': '0.59', 'Dim': '0.58', 'GB': '0.54', 'Hypo': '0.48', 'LB': '0.55', 'Mauler': '0.37', 'Wilder': '0.87'}
-{'Si0': '0.50', 'Si10': '0.60', 'Si20': '0.55', 'Si30': '0.84'}
-0.85 Eironn1.jpg
-{'Cele': '0.59', 'Dim': '0.58', 'GB': '0.54', 'Hypo': '0.48', 'LB': '0.55', 'Mauler': '0.37', 'Wilder': '0.87'}
-{'Si0': '0.50', 'Si10': '0.60', 'Si20': '0.55', 'Si30': '0.84'}
-0.94 Estrilda.jpg
-{'Cele': '0.62', 'Dim': '0.72', 'GB': '0.72', 'Hypo': '0.67', 'LB': '0.88', 'Mauler': '0.38', 'Wilder': '0.61'}
-{'Si0': '0.69', 'Si10': '0.95', 'Si20': '0.78', 'Si30': '0.37'}
-0.95 Ezio.jpg
-{'Cele': '0.64', 'Dim': '0.92', 'GB': '0.80', 'Hypo': '0.58', 'LB': '0.73', 'Mauler': '0.43', 'Wilder': '0.61'}
-{'Si0': '0.69', 'Si10': '0.86', 'Si20': '0.73', 'Si30': '0.42'}
-0.95 Fawkes.jpg
-{'Cele': '0.63', 'Dim': '0.74', 'GB': '0.70', 'Hypo': '0.67', 'LB': '0.88', 'Mauler': '0.37', 'Wilder': '0.60'}
-{'Si0': '0.69', 'Si10': '0.95', 'Si20': '0.80', 'Si30': '0.40'}
-0.94 Grezhul.jpg
-{'Cele': '0.58', 'Dim': '0.82', 'GB': '0.89', 'Hypo': '0.63', 'LB': '0.71', 'Mauler': '0.39', 'Wilder': '0.54'}
-{'Si0': '0.68', 'Si10': '0.83', 'Si20': '0.89', 'Si30': '0.55'}
-0.94 Gwyneth.jpg
-{'Cele': '0.64', 'Dim': '0.75', 'GB': '0.73', 'Hypo': '0.58', 'LB': '0.92', 'Mauler': '0.42', 'Wilder': '0.60'}
-{'Si0': '0.65', 'Si10': '0.73', 'Si20': '0.83', 'Si30': '0.53'}
-0.91 Hendrik.jpg
-{'Cele': '0.63', 'Dim': '0.76', 'GB': '0.71', 'Hypo': '0.60', 'LB': '0.92', 'Mauler': '0.34', 'Wilder': '0.55'}
-{'Si0': '0.66', 'Si10': '0.78', 'Si20': '0.70', 'Si30': '0.34'}
-0.92 Izold.jpg
-{'Cele': '0.60', 'Dim': '0.81', 'GB': '0.91', 'Hypo': '0.56', 'LB': '0.71', 'Mauler': '0.35', 'Wilder': '0.55'}
-{'Si0': '0.50', 'Si10': '0.57', 'Si20': '0.51', 'Si30': '0.73'}
-0.95 Khasos.jpg
-{'Cele': '0.41', 'Dim': '0.39', 'GB': '0.36', 'Hypo': '0.43', 'LB': '0.47', 'Mauler': '0.79', 'Wilder': '0.50'}
-{'Si0': '0.72', 'Si10': '0.85', 'Si20': '0.79', 'Si30': '0.44'}
+{'Cele': '0.59', 'Dim': '0.86', 'GB': '0.75', 'Hypo': '0.52', 'LB': '0.67', 'Mauler': '0.36', 'Wilder': '0.57'}
+{'Si0': '0.47', 'Si10': '0.56', 'Si20': '0.48', 'Si30': '0.74'}
+0.96 Arthur.jpg
+{'Cele': '0.57', 'Dim': '0.90', 'GB': '0.77', 'Hypo': '0.53', 'LB': '0.69', 'Mauler': '0.39', 'Wilder': '0.55'}
+{'Si0': '0.48', 'Si10': '0.55', 'Si20': '0.60', 'Si30': '0.85'}
+0.88 Belinda1.jpg
+{'Cele': '0.58', 'Dim': '0.69', 'GB': '0.69', 'Hypo': '0.56', 'LB': '0.85', 'Mauler': '0.36', 'Wilder': '0.50'}
+{'Si0': '0.64', 'Si10': '0.84', 'Si20': '0.90', 'Si30': '0.53'}
+0.95 Daimon.jpg
+{'Cele': '0.59', 'Dim': '0.80', 'GB': '0.89', 'Hypo': '0.52', 'LB': '0.69', 'Mauler': '0.46', 'Wilder': '0.52'}
+{'Si0': '0.61', 'Si10': '0.75', 'Si20': '0.79', 'Si30': '0.52'}
+0.94 Drez.jpg
+{'Cele': '0.45', 'Dim': '0.43', 'GB': '0.45', 'Hypo': '0.37', 'LB': '0.48', 'Mauler': '0.60', 'Wilder': '0.51'}
+{'Si0': '0.45', 'Si10': '0.51', 'Si20': '0.58', 'Si30': '0.89'}
+0.97 Eironn.jpg
+{'Cele': '0.53', 'Dim': '0.52', 'GB': '0.53', 'Hypo': '0.44', 'LB': '0.53', 'Mauler': '0.32', 'Wilder': '0.81'}
+{'Si0': '0.55', 'Si10': '0.59', 'Si20': '0.63', 'Si30': '0.90'}
+0.96 Eluard.jpg
+{'Cele': '0.58', 'Dim': '0.71', 'GB': '0.65', 'Hypo': '0.59', 'LB': '0.87', 'Mauler': '0.35', 'Wilder': '0.51'}
+{'Si0': '0.66', 'Si10': '0.89', 'Si20': '0.74', 'Si30': '0.39'}
+0.95 Estrilda.jpg
+{'Cele': '0.58', 'Dim': '0.68', 'GB': '0.68', 'Hypo': '0.64', 'LB': '0.86', 'Mauler': '0.31', 'Wilder': '0.59'}
+{'Si0': '0.69', 'Si10': '0.94', 'Si20': '0.78', 'Si30': '0.42'}
+0.94 Ezio.jpg
+{'Cele': '0.60', 'Dim': '0.91', 'GB': '0.77', 'Hypo': '0.52', 'LB': '0.69', 'Mauler': '0.39', 'Wilder': '0.62'}
+{'Si0': '0.52', 'Si10': '0.61', 'Si20': '0.60', 'Si30': '0.95'}
+0.96 Ferael.jpg
+{'Cele': '0.59', 'Dim': '0.84', 'GB': '0.95', 'Hypo': '0.53', 'LB': '0.74', 'Mauler': '0.32', 'Wilder': '0.49'}
+{'Si0': '0.49', 'Si10': '0.52', 'Si20': '0.57', 'Si30': '0.93'}
+0.95 Gorvo.jpg
+{'Cele': '0.56', 'Dim': '0.52', 'GB': '0.55', 'Hypo': '0.47', 'LB': '0.51', 'Mauler': '0.45', 'Wilder': '0.93'}
+{'Si0': '0.68', 'Si10': '0.89', 'Si20': '0.74', 'Si30': '0.40'}
+0.98 Grezhul.jpg
+{'Cele': '0.62', 'Dim': '0.84', 'GB': '0.89', 'Hypo': '0.58', 'LB': '0.72', 'Mauler': '0.29', 'Wilder': '0.63'}
+{'Si0': '0.52', 'Si10': '0.53', 'Si20': '0.56', 'Si30': '0.84'}
+0.86 Gwyneth.jpg
+{'Cele': '0.62', 'Dim': '0.69', 'GB': '0.69', 'Hypo': '0.56', 'LB': '0.90', 'Mauler': '0.30', 'Wilder': '0.50'}
+{'Si0': '0.57', 'Si10': '0.57', 'Si20': '0.60', 'Si30': '0.95'}
+0.92 Hendrik.jpg
+{'Cele': '0.61', 'Dim': '0.71', 'GB': '0.69', 'Hypo': '0.57', 'LB': '0.88', 'Mauler': '0.30', 'Wilder': '0.49'}
+{'Si0': '0.70', 'Si10': '0.77', 'Si20': '0.71', 'Si30': '0.44'}
+0.94 Isabella.jpg
+{'Cele': '0.59', 'Dim': '0.84', 'GB': '0.84', 'Hypo': '0.55', 'LB': '0.70', 'Mauler': '0.37', 'Wilder': '0.50'}
+{'Si0': '0.69', 'Si10': '0.78', 'Si20': '0.73', 'Si30': '0.43'}
+0.95 Izold.jpg
+{'Cele': '0.58', 'Dim': '0.84', 'GB': '0.92', 'Hypo': '0.56', 'LB': '0.70', 'Mauler': '0.30', 'Wilder': '0.51'}
+{'Si0': '0.66', 'Si10': '0.84', 'Si20': '0.72', 'Si30': '0.41'}
+0.94 JOKER.jpg
+{'Cele': '0.59', 'Dim': '0.87', 'GB': '0.75', 'Hypo': '0.59', 'LB': '0.73', 'Mauler': '0.33', 'Wilder': '0.64'}
+{'Si0': '0.54', 'Si10': '0.59', 'Si20': '0.60', 'Si30': '0.84'}
 0.94 Lorsan.jpg
-{'Cele': '0.59', 'Dim': '0.58', 'GB': '0.53', 'Hypo': '0.54', 'LB': '0.56', 'Mauler': '0.53', 'Wilder': '0.79'}
-{'Si0': '0.72', 'Si10': '0.79', 'Si20': '0.75', 'Si30': '0.39'}
-0.99 Lucius.jpg
-{'Cele': '0.64', 'Dim': '0.79', 'GB': '0.77', 'Hypo': '0.59', 'LB': '0.92', 'Mauler': '0.37', 'Wilder': '0.63'}
-{'Si0': '0.73', 'Si10': '0.81', 'Si20': '0.92', 'Si30': '0.59'}
-0.92 Lucretia.jpg
-{'Cele': '0.58', 'Dim': '0.63', 'GB': '0.60', 'Hypo': '0.95', 'LB': '0.73', 'Mauler': '0.42', 'Wilder': '0.64'}
-{'Si0': '0.57', 'Si10': '0.62', 'Si20': '0.61', 'Si30': '0.85'}
-0.90 Lyca.jpg
-{'Cele': '0.62', 'Dim': '0.60', 'GB': '0.58', 'Hypo': '0.49', 'LB': '0.60', 'Mauler': '0.47', 'Wilder': '0.92'}
-{'Si0': '0.68', 'Si10': '0.82', 'Si20': '0.88', 'Si30': '0.54'}
-0.96 Nakoruru.jpg
-{'Cele': '0.66', 'Dim': '0.93', 'GB': '0.82', 'Hypo': '0.61', 'LB': '0.74', 'Mauler': '0.40', 'Wilder': '0.58'}
-{'Si0': '0.69', 'Si10': '0.89', 'Si20': '0.75', 'Si30': '0.43'}
+{'Cele': '0.56', 'Dim': '0.54', 'GB': '0.53', 'Hypo': '0.48', 'LB': '0.54', 'Mauler': '0.45', 'Wilder': '0.73'}
+{'Si0': '0.69', 'Si10': '0.83', 'Si20': '0.94', 'Si30': '0.62'}
+0.97 Lucius1.jpg
+{'Cele': '0.61', 'Dim': '0.70', 'GB': '0.68', 'Hypo': '0.55', 'LB': '0.84', 'Mauler': '0.40', 'Wilder': '0.64'}
+{'Si0': '0.72', 'Si10': '0.82', 'Si20': '0.95', 'Si30': '0.65'}
+0.98 Lyca1.jpg
+{'Cele': '0.57', 'Dim': '0.55', 'GB': '0.52', 'Hypo': '0.46', 'LB': '0.53', 'Mauler': '0.36', 'Wilder': '0.76'}
+{'Si0': '0.53', 'Si10': '0.55', 'Si20': '0.56', 'Si30': '0.88'}
+0.97 Nakoruru.jpg
+{'Cele': '0.58', 'Dim': '0.93', 'GB': '0.75', 'Hypo': '0.53', 'LB': '0.71', 'Mauler': '0.41', 'Wilder': '0.59'}
+{'Si0': '0.72', 'Si10': '0.80', 'Si20': '0.77', 'Si30': '0.47'}
 0.96 Nemora.jpg
-{'Cele': '0.60', 'Dim': '0.57', 'GB': '0.53', 'Hypo': '0.49', 'LB': '0.58', 'Mauler': '0.50', 'Wilder': '0.88'}
-{'Si0': '0.71', 'Si10': '0.88', 'Si20': '0.78', 'Si30': '0.43'}
-0.94 Oden.jpg
-{'Cele': '0.61', 'Dim': '0.84', 'GB': '0.89', 'Hypo': '0.69', 'LB': '0.82', 'Mauler': '0.33', 'Wilder': '0.61'}
-{'Si0': '0.70', 'Si10': '0.89', 'Si20': '0.79', 'Si30': '0.44'}
-0.96 POP.jpg
-{'Cele': '0.63', 'Dim': '0.93', 'GB': '0.81', 'Hypo': '0.57', 'LB': '0.72', 'Mauler': '0.43', 'Wilder': '0.60'}
-{'Si0': '0.69', 'Si10': '0.81', 'Si20': '0.72', 'Si30': '0.43'}
-0.96 Rosaline.jpg
-{'Cele': '0.62', 'Dim': '0.76', 'GB': '0.72', 'Hypo': '0.61', 'LB': '0.91', 'Mauler': '0.51', 'Wilder': '0.56'}
-{'Si0': '0.49', 'Si10': '0.59', 'Si20': '0.53', 'Si30': '0.80'}
-0.91 Rowan.jpg
-{'Cele': '0.64', 'Dim': '0.76', 'GB': '0.72', 'Hypo': '0.61', 'LB': '0.94', 'Mauler': '0.43', 'Wilder': '0.64'}
-{'Si0': '0.39', 'Si10': '0.60', 'Si20': '0.53', 'Si30': '0.84'}
-0.92 Safiya.jpg
-{'Cele': '0.57', 'Dim': '0.59', 'GB': '0.64', 'Hypo': '0.57', 'LB': '0.75', 'Mauler': '0.72', 'Wilder': '0.65'}
-{'Si0': '0.48', 'Si10': '0.58', 'Si20': '0.56', 'Si30': '0.88'}
-0.95 Saurus.jpg
-{'Cele': '0.61', 'Dim': '0.58', 'GB': '0.55', 'Hypo': '0.47', 'LB': '0.55', 'Mauler': '0.40', 'Wilder': '0.87'}
-{'Si0': '0.48', 'Si10': '0.61', 'Si20': '0.57', 'Si30': '0.85'}
-0.95 Silas.jpg
-{'Cele': '0.64', 'Dim': '0.86', 'GB': '0.92', 'Hypo': '0.62', 'LB': '0.79', 'Mauler': '0.25', 'Wilder': '0.67'}
-{'Si0': '0.52', 'Si10': '0.56', 'Si20': '0.50', 'Si30': '0.82'}
+{'Cele': '0.51', 'Dim': '0.54', 'GB': '0.52', 'Hypo': '0.56', 'LB': '0.50', 'Mauler': '0.50', 'Wilder': '0.82'}
+{'Si0': '0.71', 'Si10': '0.81', 'Si20': '0.76', 'Si30': '0.45'}
+0.93 Numisu.jpg
+{'Cele': '0.54', 'Dim': '0.47', 'GB': '0.52', 'Hypo': '0.45', 'LB': '0.58', 'Mauler': '0.60', 'Wilder': '0.62'}
+{'Si0': '0.65', 'Si10': '0.84', 'Si20': '0.92', 'Si30': '0.55'}
+0.95 POP.jpg
+{'Cele': '0.57', 'Dim': '0.86', 'GB': '0.75', 'Hypo': '0.54', 'LB': '0.68', 'Mauler': '0.34', 'Wilder': '0.63'}
+{'Si0': '0.58', 'Si10': '0.73', 'Si20': '0.79', 'Si30': '0.54'}
+0.95 QUEEN.jpg
+{'Cele': '0.57', 'Dim': '0.87', 'GB': '0.73', 'Hypo': '0.53', 'LB': '0.68', 'Mauler': '0.34', 'Wilder': '0.59'}
+{'Si0': '0.71', 'Si10': '0.81', 'Si20': '0.73', 'Si30': '0.44'}
+0.94 Respen.jpg
+{'Cele': '0.53', 'Dim': '0.52', 'GB': '0.55', 'Hypo': '0.42', 'LB': '0.52', 'Mauler': '0.39', 'Wilder': '0.93'}
+{'Si0': '0.65', 'Si10': '0.71', 'Si20': '0.79', 'Si30': '0.56'}
+0.95 Rosaline.jpg
+{'Cele': '0.58', 'Dim': '0.71', 'GB': '0.68', 'Hypo': '0.57', 'LB': '0.88', 'Mauler': '0.37', 'Wilder': '0.49'}
+{'Si0': '0.60', 'Si10': '0.74', 'Si20': '0.79', 'Si30': '0.53'}
+0.96 Rowan.jpg
+{'Cele': '0.62', 'Dim': '0.70', 'GB': '0.71', 'Hypo': '0.57', 'LB': '0.85', 'Mauler': '0.41', 'Wilder': '0.59'}
+{'Si0': '0.44', 'Si10': '0.53', 'Si20': '0.56', 'Si30': '0.83'}
+0.98 Safiya1.jpg
+{'Cele': '0.57', 'Dim': '0.56', 'GB': '0.59', 'Hypo': '0.57', 'LB': '0.68', 'Mauler': '0.69', 'Wilder': '0.59'}
+{'Si0': '0.45', 'Si10': '0.49', 'Si20': '0.49', 'Si30': '0.73'}
+0.97 Satrana.jpg
+{'Cele': '0.40', 'Dim': '0.43', 'GB': '0.35', 'Hypo': '0.41', 'LB': '0.37', 'Mauler': '0.68', 'Wilder': '0.43'}
+{'Si0': '0.68', 'Si10': '0.90', 'Si20': '0.79', 'Si30': '0.44'}
+0.94 Saurus.jpg
+{'Cele': '0.56', 'Dim': '0.52', 'GB': '0.52', 'Hypo': '0.41', 'LB': '0.49', 'Mauler': '0.33', 'Wilder': '0.89'}
+{'Si0': '0.45', 'Si10': '0.54', 'Si20': '0.56', 'Si30': '0.88'}
+0.92 Shemira.jpg
+{'Cele': '0.61', 'Dim': '0.82', 'GB': '0.88', 'Hypo': '0.60', 'LB': '0.71', 'Mauler': '0.32', 'Wilder': '0.66'}
+{'Si0': '0.73', 'Si10': '0.78', 'Si20': '0.89', 'Si30': '0.59'}
+0.92 Silas.jpg
+{'Cele': '0.63', 'Dim': '0.86', 'GB': '0.90', 'Hypo': '0.69', 'LB': '0.74', 'Mauler': '0.27', 'Wilder': '0.59'}
+{'Si0': '0.71', 'Si10': '0.75', 'Si20': '0.75', 'Si30': '0.46'}
+0.94 Skreg.jpg
+{'Cele': '0.47', 'Dim': '0.45', 'GB': '0.40', 'Hypo': '0.38', 'LB': '0.45', 'Mauler': '0.68', 'Wilder': '0.44'}
+{'Si0': '0.67', 'Si10': '0.85', 'Si20': '0.91', 'Si30': '0.54'}
 0.93 Tasi1.jpg
-{'Cele': '0.56', 'Dim': '0.57', 'GB': '0.52', 'Hypo': '0.48', 'LB': '0.61', 'Mauler': '0.55', 'Wilder': '0.83'}
-{'Si0': '0.72', 'Si10': '0.84', 'Si20': '0.92', 'Si30': '0.56'}
-0.95 Thoran.jpg
-{'Cele': '0.60', 'Dim': '0.81', 'GB': '0.94', 'Hypo': '0.54', 'LB': '0.73', 'Mauler': '0.42', 'Wilder': '0.52'}
-{'Si0': '0.49', 'Si10': '0.62', 'Si20': '0.58', 'Si30': '0.80'}
-0.90 Warek.jpg
-{'Cele': '0.53', 'Dim': '0.53', 'GB': '0.55', 'Hypo': '0.49', 'LB': '0.64', 'Mauler': '0.71', 'Wilder': '0.66'}
-{'Si0': '0.71', 'Si10': '0.83', 'Si20': '0.94', 'Si30': '0.56'}
+{'Cele': '0.55', 'Dim': '0.54', 'GB': '0.54', 'Hypo': '0.44', 'LB': '0.51', 'Mauler': '0.47', 'Wilder': '0.91'}
+{'Si0': '0.63', 'Si10': '0.71', 'Si20': '0.75', 'Si30': '0.55'}
+0.96 Thali.jpg
+{'Cele': '0.44', 'Dim': '0.48', 'GB': '0.46', 'Hypo': '0.42', 'LB': '0.54', 'Mauler': '0.77', 'Wilder': '0.48'}
+{'Si0': '0.52', 'Si10': '0.51', 'Si20': '0.53', 'Si30': '0.89'}
+0.87 Thoran.jpg
+{'Cele': '0.59', 'Dim': '0.85', 'GB': '0.88', 'Hypo': '0.54', 'LB': '0.71', 'Mauler': '0.39', 'Wilder': '0.50'}
+{'Si0': '0.61', 'Si10': '0.73', 'Si20': '0.88', 'Si30': '0.63'}
+0.92 Tidus.jpg
+{'Cele': '0.53', 'Dim': '0.50', 'GB': '0.53', 'Hypo': '0.51', 'LB': '0.65', 'Mauler': '0.66', 'Wilder': '0.62'}
+{'Si0': '0.67', 'Si10': '0.81', 'Si20': '0.94', 'Si30': '0.66'}
+0.91 Ukyo.jpg
+{'Cele': '0.60', 'Dim': '0.90', 'GB': '0.78', 'Hypo': '0.52', 'LB': '0.69', 'Mauler': '0.36', 'Wilder': '0.57'}
+{'Si0': '0.71', 'Si10': '0.89', 'Si20': '0.78', 'Si30': '0.47'}
 
 Failure list
-['Alna', 'Anoki', 'Antandra', 'Athalia', 'Baden', 'Belinda1', 'Brutus', 'Brutus1', 'Cecilia', 'Daimon', 'Desira', 'Drez', 'Eluard', 'Ezizh', 'Ferael', 'Flora', 'Gorvo', 'Isabella', 'JOKER', 'Kaz', 'Kelthur', 'Khazard', 'Kren', 'Leofric', 'Lucius1', 'Mehira', 'Merlin', 'Mezoth', 'Morael', 'Mortas', 'Nara', 'Numisu', 'Orthros', 'Oscar', 'Peggy', 'Pippa', 'QUEEN', 'Raine', 'Raku', 'Respen', 'Rigby', 'Safiya1', 'Satrana', 'Seirus', 'Shemira', 'Shemira1', 'Skreg', 'Skriath', 'Skriath1', 'Solise', 'Talene1', 'Tasi', 'Thali', 'Thane', 'Theowyn', 'Tidus', 'Titus', 'Torne', 'Twins', 'Ukyo', 'Ulmus', 'Vurk', 'Walker', 'Wu Kong', 'Zaphrael', 'Zolrath']
+['Alna', 'Anoki', 'Antandra', 'Athalia', 'Baden', 'Belinda', 'Brutus', 'Brutus1', 'Cecilia', 'Daimon1', 'Desira', 'Eironn1', 'Ezizh', 'Fawkes', 'Flora', 'Kaz', 'Kelthur', 'Khasos', 'Khazard', 'Kren', 'Leofric', 'Lucius', 'Lucretia', 'Lyca', 'Mehira', 'Merlin', 'Mezoth', 'Morael', 'Mortas', 'Nara', 'Oden', 'Orthros', 'Oscar', 'Peggy', 'Pippa', 'Raine', 'Raku', 'Rigby', 'Safiya', 'Seirus', 'Shemira1', 'Skriath', 'Skriath1', 'Solise', 'Talene1', 'Tasi', 'Thane', 'Theowyn', 'Titus', 'Torne', 'Twins', 'Ulmus', 'Vurk', 'Walker', 'Warek', 'Wu Kong', 'Zaphrael', 'Zolrath']
 
 Success dict
-{'Ainz': ['Dim', 'Si30'], 'Albedo': ['Dim', 'Si30'], 'Arthur': ['Dim', 'Si30'], 'Belinda': ['LB', 'Si20'], 'Daimon': ['GB', 'Si30'], 'Eironn': ['Wilder', 'Si30'], 'Estrilda': ['LB', 'Si10'], 'Ezio': ['Dim', 'Si10'], 'Fawkes': ['LB', 'Si10'], 'Grezhul': ['GB', 'Si20'], 'Gwyneth': ['LB', 'Si20'], 'Hendrik': ['LB', 'Si10'], 'Izold': ['GB', 'Si30'], 'Khasos': ['Mauler', 'Si10'], 'Lorsan': ['Wilder', 'Si10'], 'Lucius': ['LB', 'Si20'], 'Lucretia': ['Hypo', 'Si30'], 'Lyca': ['Wilder', 'Si20'], 'Nakoruru': ['Dim', 'Si10'], 'Nemora': ['Wilder', 'Si10'], 'Oden': ['GB', 'Si10'], 'POP': ['Dim', 'Si10'], 'Rosaline': ['LB', 'Si30'], 'Rowan': ['LB', 'Si30'], 'Safiya': ['LB', 'Si30'], 'Saurus': ['Wilder', 'Si30'], 'Silas': ['GB', 'Si30'], 'Tasi': ['Wilder', 'Si20'], 'Thoran': ['GB', 'Si30'], 'Warek': ['Mauler', 'Si20']}
+{'Ainz': ['Dim', 'Si30'], 'Albedo': ['Dim', 'Si30'], 'Arthur': ['Dim', 'Si30'], 'Belinda': ['LB', 'Si20'], 'Daimon': ['GB', 'Si20'], 'Drez': ['Mauler', 'Si30'], 'Eironn': ['Wilder', 'Si30'], 'Eluard': ['LB', 'Si10'], 'Estrilda': ['LB', 'Si10'], 'Ezio': ['Dim', 'Si30'], 'Ferael': ['GB', 'Si30'], 'Gorvo': ['Wilder', 'Si10'], 'Grezhul': ['GB', 'Si30'], 'Gwyneth': ['LB', 'Si30'], 'Hendrik': ['LB', 'Si10'], 'Isabella': ['Dim', 'Si10'], 'Izold': ['GB', 'Si10'], 'JOKER': ['Dim', 'Si30'], 'Lorsan': ['Wilder', 'Si20'], 'Lucius': ['LB', 'Si20'], 'Lyca': ['Wilder', 'Si30'], 'Nakoruru': ['Dim', 'Si10'], 'Nemora': ['Wilder', 'Si10'], 'Numisu': ['Wilder', 'Si20'], 'POP': ['Dim', 'Si20'], 'QUEEN': ['Dim', 'Si10'], 'Respen': ['Wilder', 'Si20'], 'Rosaline': ['LB', 'Si20'], 'Rowan': ['LB', 'Si30'], 'Safiya': ['Mauler', 'Si30'], 'Satrana': ['Mauler', 'Si10'], 'Saurus': ['Wilder', 'Si30'], 'Shemira': ['GB', 'Si20'], 'Silas': ['GB', 'Si10'], 'Skreg': ['Mauler', 'Si20'], 'Tasi': ['Wilder', 'Si20'], 'Thali': ['Mauler', 'Si30'], 'Thoran': ['GB', 'Si20'], 'Tidus': ['Mauler', 'Si20'], 'Ukyo': ['Dim', 'Si10']}

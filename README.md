@@ -1,2 +1,9 @@
 # AFKARENAHERORECOG
 Transforming hero list screenshoots from game AFK ARENA to csv files using OpenCV python
+
+## How to create new Hero Face Template:
+
+    1.Put Hero icon in HeroTemplates
+    2.Start Crop.py script
+    3.Start CreateGameTemplates.py script with a screenshoot that has the hero in it
+    4.Take template from folder NewcroppedTemplates to folder HeroFacesForTemplateMatching

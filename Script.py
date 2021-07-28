@@ -1,10 +1,11 @@
 import cv2
+import random
 from pathlib import Path
 
 DefaultHeight = 960
 DefaultWidth = 432
 directory = 'HeroFacesForTemplateMatching'
-DefaultHeroList = cv2.imread('Template/n38s-l_H780.jpg', 1)
+DefaultHeroList = cv2.imread('Template/Screenshot_20210722-154416_AFK_Arena.jpg', 1)
 Size = DefaultWidth / DefaultHeroList.shape[1]  # Default the Size of Herolist
 img = cv2.resize(DefaultHeroList, (0, 0), fx=Size, fy=Size)
 img2 = img.copy()
@@ -86,6 +87,8 @@ with open('Result/Log.txt', 'w') as log:
             # hero mods check
             fraction = fraction_check(mod_check_crop)  # Check for fraction
             signature = signature_check(mod_check_crop)  # Check for signature
+            cv2.imwrite(f'Data/{str(random.random())}.jpg', mod_check_crop)
+
             # print(fraction[0])
             if image_name[0:-4].isalpha():
                 # put Hero name on result jpg

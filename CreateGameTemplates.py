@@ -6,7 +6,7 @@ DefaultHeight = 960
 DefaultWidth = 432
 
 Images = Path(directory).glob('*')
-DefaultHeroList = cv2.imread('Template/n38s-l_H780.jpg', 1)
+DefaultHeroList = cv2.imread('Template/Screenshot_20210722-154416_AFK_Arena.jpg', 1)
 Size = DefaultWidth / DefaultHeroList.shape[1]  # Default the Size of Herolist
 img = cv2.resize(DefaultHeroList, (0, 0), fx=Size, fy=Size)
 for Image in Images:
