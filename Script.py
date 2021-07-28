@@ -4,8 +4,8 @@ from pathlib import Path
 
 DefaultHeight = 960
 DefaultWidth = 432
-directory = 'HeroFacesForTemplateMatching'
-DefaultHeroList = cv2.imread('Template/Screenshot_20210722-154416_AFK_Arena.jpg', 1)
+directory = 'HeroFacesDirectory/HeroFacesForTemplateMatching'
+DefaultHeroList = cv2.imread('Herolist/wGuamfjX26E.jpg', 1)
 Size = DefaultWidth / DefaultHeroList.shape[1]  # Default the Size of Herolist
 img = cv2.resize(DefaultHeroList, (0, 0), fx=Size, fy=Size)
 img2 = img.copy()
@@ -30,7 +30,7 @@ def increase_box_size_left_upper_corner(corner):
 def template_match(heroicon):
     template = cv2.imread(str(heroicon), 1)
     h, w = template.shape[0:2]
-    result = cv2.matchTemplate(img, template, cv2.TM_CCOEFF_NORMED)  # Template Match
+    result = cv2.matchTemplate(img, template, cv2.TM_CCOEFF_NORMED)  # Herolist Match
     min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(result)
     location = increase_box_size_left_upper_corner(list(max_loc))  # Left upper corner of Rectangle
     bottom_right = (location[0] + w + 42, location[1] + h + 36)  # Bottom right corner of Rectangle + Increase
@@ -39,7 +39,7 @@ def template_match(heroicon):
 
 def fraction_check(zone):
     fractions_directory = 'Fraction'
-    fractions = Path(fractions_directory).glob('*')
+    fractions = Path(fractions_directory).glob('*.jpg')
     fdict = {}
     for frac in fractions:
         # print(frac)

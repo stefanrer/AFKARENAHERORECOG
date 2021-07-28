@@ -1,7 +1,7 @@
 import cv2
 from pathlib import Path
 
-directory = 'HeroTemplates'
+directory = 'HeroFacesDirectory/HeroTemplates'
 folders = Path(directory).glob('*')
 
 for folder in folders:
@@ -11,4 +11,4 @@ for folder in folders:
         cropped_image = template[22:78, 25:75]
         sizeimag = cv2.resize(cropped_image, (0, 0), fx=0.65, fy=0.65)
         image_name = str(image).split("\\")
-        cv2.imwrite(f'CroppedTemplates/{image_name[-1]}', sizeimag)
+        cv2.imwrite(f'HeroFacesDirectory/CroppedTemplates/{image_name[-1]}', sizeimag)

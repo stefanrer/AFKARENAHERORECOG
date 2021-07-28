@@ -1,7 +1,7 @@
 import cv2
 from pathlib import Path
 
-directory = 'FurnData'
+directory = 'FurnData/ImagesForYolo'
 files = Path(directory).glob('*.jpg')
 for file in files:
     img = cv2.imread(str(file), 1)
