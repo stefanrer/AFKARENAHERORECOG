@@ -5,7 +5,7 @@ from pathlib import Path
 DefaultHeight = 960
 DefaultWidth = 432
 directory = 'HeroFacesDirectory/HeroFacesForTemplateMatching'
-filename = 'wGuamfjX26E.jpg' # Input HeroList
+filename = 'Screenshot_2021-07-14-11-12-36-980_com.lilithgame.hgame.gp.jpg' # Input HeroList
 DefaultHeroList = cv2.imread(f'Herolist/{filename}', 1)
 Size = DefaultWidth / DefaultHeroList.shape[1]  # Default the Size of Herolist
 img = cv2.resize(DefaultHeroList, (0, 0), fx=Size, fy=Size)
@@ -81,7 +81,7 @@ def furniture_check(zone):
         furnimag = cv2.imread(str(furn), 1)
         furnresult = cv2.matchTemplate(furnzone, furnimag, cv2.TM_CCOEFF_NORMED)
         furn_min_val, furn_max_val, furn_min_loc, furn_max_loc = cv2.minMaxLoc(furnresult)
-        furndict[str(furn).split('\\')[-1]] = furn_max_val
+        furndict[str(furn).split('\\')[-1]] = float(str(furn_max_val)[0:4])
         if furn_max_val > max_value:
             max_value = furn_max_val
             furn_name = str(furn).split('\\')[-1][0:5]
@@ -89,6 +89,7 @@ def furniture_check(zone):
     sort_furn_list = sorted(furndict.items(), key=lambda x: x[1], reverse=True)
     sort_furn_dict = dict(sort_furn_list)
     print(sort_furn_dict)
+    print(sort_furn_dict, file=log)
     if max_value < 0.92:
         furn_name = 'furn0'
     return furn_name
@@ -105,14 +106,15 @@ with open('Result/Log.txt', 'w') as log:
             print(str(val)[0:4], str(face).split("\\")[-1], file=log)
             # Text locations
             text_loc = (LeftCorner[0], RightCorner[1])  # Hero name location
-            frac_text_loc = (LeftCorner[0], RightCorner[1] - 15)  # Hero fraction location
-            sign_text_loc = (LeftCorner[0], RightCorner[1] - 30)  # Hero signature location
+            frac_text_loc = (LeftCorner[0], RightCorner[1] - 15)  # Hero fraction text location
+            sign_text_loc = (LeftCorner[0] + 25, RightCorner[1] - 30)  # Hero signature text location
+            furn_text_loc = (LeftCorner[0] + 25, RightCorner[1] - 45)  # Hero furniture text location
             # Crop for template
             mod_check_crop = crop[0:int((crop.shape[0]) / 1.8), 0:int((crop.shape[1]) / 2.3)]  # Zone for mod check
             # hero mods check
             fraction = fraction_check(mod_check_crop)  # Check for fraction
             signature = signature_check(mod_check_crop)  # Check for signature
-            furniture_check(mod_check_crop)
+            furniture = furniture_check(mod_check_crop) # Check for furniture
             # cv2.imwrite(f'Data/{str(random.random())}.jpg', mod_check_crop)
             # cv2.imshow('ss', mod_check_crop)
             # cv2.waitKey(0)
@@ -120,30 +122,24 @@ with open('Result/Log.txt', 'w') as log:
 
             # print(fraction[0])
             if image_name[0:-4].isalpha():
-                # put Hero name on result jpg
-                if image_name[0:-4] not in success_dict:
-                    cv2.putText(img2, image_name[0:-4], text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
-                    cv2.imwrite(f'Result/Success/{image_name}', crop)
-                    cv2.rectangle(img2, LeftCorner, RightCorner, 255, 1)
-                    success_dict[image_name[0:-4]] = [fraction, signature]  # Add hero to dict
-                    # Put Fraction on herolist
-                    cv2.putText(img2, fraction, frac_text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
-                    # Put Si on herolist
-                    cv2.putText(img2, signature, sign_text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
+                image_true_name = image_name[0:-4]
             else:
-                if image_name[0:-5] not in success_dict:
-                    cv2.putText(img2, image_name[0:-5], text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
-                    success_dict[image_name[0:-5]] = [fraction, signature]
-                    cv2.imwrite(f'Result/Success/{image_name}', crop)
-                    cv2.rectangle(img2, LeftCorner, RightCorner, 255, 1)
-                    # Put Fraction on herolist
-                    cv2.putText(img2, fraction, frac_text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
-                    # Put Si on herolist
-                    cv2.putText(img2, signature, sign_text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
-
+                image_true_name = image_name[0:-5]
+            # put Hero name on result jpg
+            if image_true_name not in success_dict:
+                cv2.putText(img2, image_true_name, text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
+                cv2.imwrite(f'Result/Success/{image_name}', crop)
+                cv2.rectangle(img2, LeftCorner, RightCorner, 255, 1)
+                success_dict[image_true_name] = [fraction, signature, furniture]  # Add hero to dict
+                # Put Fraction on herolist
+                cv2.putText(img2, fraction, frac_text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
+                # Put Si on herolist
+                cv2.putText(img2, signature, sign_text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
+                cv2.putText(img2, furniture, furn_text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
         else:
             cv2.imwrite(f'Result/Failure/{image_name}', crop)
             failure_list.append(image_name[0:-4])
+
     cv2.imwrite(f'Result/result.jpg', img2)  # ResultSheet
     print(f'\nFailure list\n{failure_list}')
     print(f'\nFailure list\n{failure_list}', file=log)
