@@ -5,7 +5,8 @@ from pathlib import Path
 DefaultHeight = 960
 DefaultWidth = 432
 directory = 'HeroFacesDirectory/HeroFacesForTemplateMatching'
-DefaultHeroList = cv2.imread('Herolist/Screenshot_20210722-154416_AFK_Arena.jpg', 1)
+filename = 'wGuamfjX26E.jpg' # Input HeroList
+DefaultHeroList = cv2.imread(f'Herolist/{filename}', 1)
 Size = DefaultWidth / DefaultHeroList.shape[1]  # Default the Size of Herolist
 img = cv2.resize(DefaultHeroList, (0, 0), fx=Size, fy=Size)
 img2 = img.copy()
@@ -69,6 +70,30 @@ def signature_check(zone):
     return sidictlist[0][0]
 
 
+def furniture_check(zone):
+    furniture_directory = 'FurnData/FurnTemplate'
+    furnzone = cv2.resize(zone, (224, 224))
+    furnitures = Path(furniture_directory).glob('*.jpg')
+    max_value = 0
+    furnname = ''
+    furndict = {}
+    for furn in furnitures:
+        furnimag = cv2.imread(str(furn), 1)
+        furnresult = cv2.matchTemplate(furnzone, furnimag, cv2.TM_CCOEFF_NORMED)
+        furn_min_val, furn_max_val, furn_min_loc, furn_max_loc = cv2.minMaxLoc(furnresult)
+        furndict[str(furn).split('\\')[-1]] = furn_max_val
+        if furn_max_val > max_value:
+            max_value = furn_max_val
+            furn_name = str(furn).split('\\')[-1][0:5]
+            full_furnname = str(furn).split('\\')[-1]
+    sort_furn_list = sorted(furndict.items(), key=lambda x: x[1], reverse=True)
+    sort_furn_dict = dict(sort_furn_list)
+    print(sort_furn_dict)
+    if max_value < 0.92:
+        furn_name = 'furn0'
+    return furn_name
+
+
 with open('Result/Log.txt', 'w') as log:
     for face in faces:
         val, LeftCorner, RightCorner = template_match(face)
@@ -87,7 +112,11 @@ with open('Result/Log.txt', 'w') as log:
             # hero mods check
             fraction = fraction_check(mod_check_crop)  # Check for fraction
             signature = signature_check(mod_check_crop)  # Check for signature
-            cv2.imwrite(f'Data/{str(random.random())}.jpg', mod_check_crop)
+            furniture_check(mod_check_crop)
+            # cv2.imwrite(f'Data/{str(random.random())}.jpg', mod_check_crop)
+            # cv2.imshow('ss', mod_check_crop)
+            # cv2.waitKey(0)
+            # cv2.destroyAllWindows()
 
             # print(fraction[0])
             if image_name[0:-4].isalpha():
