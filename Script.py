@@ -5,7 +5,7 @@ from pathlib import Path
 DefaultHeight = 960
 DefaultWidth = 432
 directory = 'HeroFacesDirectory/HeroFacesForTemplateMatching'
-filename = 'Screenshot_2021-07-14-11-12-36-980_com.lilithgame.hgame.gp.jpg' # Input HeroList
+filename = 'Screenshot_2021-08-01-17-12-51.jpg'  # Input HeroList
 DefaultHeroList = cv2.imread(f'Herolist/{filename}', 1)
 Size = DefaultWidth / DefaultHeroList.shape[1]  # Default the Size of Herolist
 img = cv2.resize(DefaultHeroList, (0, 0), fx=Size, fy=Size)
@@ -75,7 +75,6 @@ def furniture_check(zone):
     furnzone = cv2.resize(zone, (224, 224))
     furnitures = Path(furniture_directory).glob('*.jpg')
     max_value = 0
-    furnname = ''
     furndict = {}
     for furn in furnitures:
         furnimag = cv2.imread(str(furn), 1)
@@ -85,7 +84,7 @@ def furniture_check(zone):
         if furn_max_val > max_value:
             max_value = furn_max_val
             furn_name = str(furn).split('\\')[-1][0:5]
-            full_furnname = str(furn).split('\\')[-1]
+            # full_furnname = str(furn).split('\\')[-1]  # Get file name
     sort_furn_list = sorted(furndict.items(), key=lambda x: x[1], reverse=True)
     sort_furn_dict = dict(sort_furn_list)
     print(sort_furn_dict)
@@ -114,11 +113,7 @@ with open('Result/Log.txt', 'w') as log:
             # hero mods check
             fraction = fraction_check(mod_check_crop)  # Check for fraction
             signature = signature_check(mod_check_crop)  # Check for signature
-            furniture = furniture_check(mod_check_crop) # Check for furniture
-            # cv2.imwrite(f'Data/{str(random.random())}.jpg', mod_check_crop)
-            # cv2.imshow('ss', mod_check_crop)
-            # cv2.waitKey(0)
-            # cv2.destroyAllWindows()
+            furniture = furniture_check(mod_check_crop)  # Check for furniture
 
             # print(fraction[0])
             if image_name[0:-4].isalpha():
