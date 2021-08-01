@@ -5,7 +5,7 @@ from pathlib import Path
 DefaultHeight = 960
 DefaultWidth = 432
 directory = 'HeroFacesDirectory/HeroFacesForTemplateMatching'
-filename = 'Screenshot_2021-08-01-17-12-51.jpg'  # Input HeroList
+filename = 'com.lilithgame.hgame.gp_Screenshot_2021.05.13_20.52.26.jpeg'  # Input HeroList
 DefaultHeroList = cv2.imread(f'Herolist/{filename}', 1)
 Size = DefaultWidth / DefaultHeroList.shape[1]  # Default the Size of Herolist
 img = cv2.resize(DefaultHeroList, (0, 0), fx=Size, fy=Size)
