@@ -1,7 +1,8 @@
 import cv2
-import random
 from pathlib import Path
+from timeit import default_timer as timer
 
+start = timer()
 DefaultHeight = 960
 DefaultWidth = 432
 directory = 'HeroFacesDirectory/HeroFacesForTemplateMatching'
@@ -97,7 +98,6 @@ def furniture_check(zone):
         furn_name = 'furn0'
     print(furn_name, float(str(max_value)[0:4]))
     print(furn_name, float(str(max_value)[0:4]), file=log)
-    print('')
     return furn_name
 
 
@@ -113,24 +113,24 @@ def rarity_check(zone):
     rar_dict_list = sorted(rar_dict.items(), key=lambda x: x[1], reverse=True)
     print(rar_dict)
     print(rar_dict, file=log)
-    rarity = rar_dict_list[0][0]
+    rarityf = rar_dict_list[0][0]
     rarity_match = rar_dict_list[0][1]
-    if rarity != 'Ascended':
+    if rarityf != 'Ascended':
         plus_crop = zone[int(zone.shape[0] * 2 / 3):zone.shape[0], 0:int(zone.shape[1] / 3)]
-        if rarity == 'Mythic':
+        if rarityf == 'Mythic':
             plus_path = 'Rarity/PlusRarity/Mythic+.jpg'
-        elif rarity == 'Legendary':
+        elif rarityf == 'Legendary':
             plus_path = 'Rarity/PlusRarity/Legendary+.jpg'
-        elif rarity == 'Elite':
+        elif rarityf == 'Elite':
             plus_path = 'Rarity/PlusRarity/Elite+.jpg'
         plus_img = cv2.imread(plus_path, 1)
         plus_result = cv2.matchTemplate(plus_crop, plus_img, cv2.TM_CCOEFF_NORMED)
         plus_min_val, plus_max_val, plus_min_loc, plus_max_loc = cv2.minMaxLoc(plus_result)
         if plus_max_val > 0.9:
-            rarity += '+'
-    print(rarity, rarity_match)
-    print(rarity, rarity_match, file=log)
-    return rarity
+            rarityf += '+'
+    print(rarityf, rarity_match)
+    print(rarityf, rarity_match, file=log)
+    return rarityf
 
 
 with open('Result/Log.txt', 'w') as log:
@@ -143,19 +143,24 @@ with open('Result/Log.txt', 'w') as log:
             print(str(face).split("\\")[-1][0:-4], float(str(val)[0:4]))
             print(str(face).split("\\")[-1][0:-4], float(str(val)[0:4]), file=log)
             # Text locations
-            text_loc = (LeftCorner[0] + 25, RightCorner[1])  # Hero name location
-            frac_text_loc = (LeftCorner[0] + 25, RightCorner[1] - 15)  # Hero fraction text location
-            sign_text_loc = (LeftCorner[0] + 25, RightCorner[1] - 30)  # Hero signature text location
-            furn_text_loc = (LeftCorner[0] + 25, RightCorner[1] - 45)  # Hero furniture text location
             rar_text_loc = (LeftCorner[0], RightCorner[1] - 60)  # Hero furniture text location
+            furn_text_loc = (LeftCorner[0] + 25, RightCorner[1] - 45)  # Hero furniture text location
+            sign_text_loc = (LeftCorner[0] + 25, RightCorner[1] - 30)  # Hero signature text location
+            frac_text_loc = (LeftCorner[0] + 25, RightCorner[1] - 15)  # Hero fraction text location
+            text_loc = (LeftCorner[0] + 25, RightCorner[1])  # Hero name location
+
             # Crop for template
             mod_check_crop = crop[0:int((crop.shape[0]) / 1.8), 0:int((crop.shape[1]) / 2.3)]  # Zone for mod check
             # hero mods check
             rarity = rarity_check(crop)
             fraction = fraction_check(mod_check_crop)  # Check for fraction
-            signature = signature_check(mod_check_crop)  # Check for signature
-            furniture = furniture_check(mod_check_crop)  # Check for furniture
-
+            furniture = 'furn0'
+            signature = 'Si0'
+            if rarity == 'Ascended':
+                signature = signature_check(mod_check_crop)  # Check for signature
+                furniture = furniture_check(mod_check_crop)  # Check for furniture
+            if rarity == 'Mythic' or rarity == 'Mythic+':
+                signature = signature_check(mod_check_crop)  # Check for signature
             # print(fraction[0])
             if image_name[0:-4].isalpha():
                 image_true_name = image_name[0:-4]
@@ -165,19 +170,21 @@ with open('Result/Log.txt', 'w') as log:
             if image_true_name not in success_dict:
                 cv2.imwrite(f'Result/Success/{image_name}', crop)
                 cv2.rectangle(img2, LeftCorner, RightCorner, 255, 1)
-                success_dict[image_true_name] = [fraction, signature, furniture]  # Add hero to dict
+                success_dict[image_true_name] = [rarity, fraction, signature, furniture]  # Add hero to dict
                 # Put Text on herolist
-                cv2.putText(img2, image_true_name, text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
-                cv2.putText(img2, fraction, frac_text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
-                cv2.putText(img2, signature, sign_text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
+                cv2.putText(img2, rarity, rar_text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.4, (0, 0, 255), 2)
                 cv2.putText(img2, furniture, furn_text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
-                cv2.putText(img2, rarity, rar_text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
+                cv2.putText(img2, signature, sign_text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
+                cv2.putText(img2, fraction, frac_text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
+                cv2.putText(img2, image_true_name, text_loc, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
+            print('')
+            print('', file=log)
         else:
             cv2.imwrite(f'Result/Failure/{image_name}', crop)
             failure_list.append(image_name[0:-4])
-
     cv2.imwrite(f'Result/result.jpg', img2)  # ResultSheet
     print(f'\nFailure list\n{failure_list}')
     print(f'\nFailure list\n{failure_list}', file=log)
     print(f'\nSuccess dict\n{success_dict}')
     print(f'\nSuccess dict\n{success_dict}', file=log)
+print(timer()-start)
